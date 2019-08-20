@@ -1,0 +1,59 @@
+
+/* Arquivo CSS */
+
+body{
+			background-image: url("../imagens/i.png");
+			background-repeat: repeat-x; /*repeat-x -> Joga o background para o topo da pagina*/
+			 /*repeat-y -> Joga o background para a esquerda da pagina*/
+			background-color: red;
+			background-attachment: fixed; /*Fixa o background*/
+			background-size: 100px 1000px;
+}
+
+h1{
+	color: rgb(249,242,0);
+}
+
+main{
+	margin: 10px auto; /* Ordem TOP, RIGHT, BOTTOM, LEFT */
+	width: 960px;
+	color: gray;
+	background-color: rgb(73,148,148);
+	border-style: solid;
+	padding: 10px;
+	border-color: rgb(249,242,0);
+}
+
+
+#p1{
+	font-style: italic;
+	font-size:22px;
+	color: rgb(53,41,154);
+	background-color: rgb(251,254,141);
+	padding: 5px 20px; /*5px Top e Botton 25px left e right  */
+
+	border-style: double; /*Estilo da borda */
+	border-width: 10px;	/*Largura da Borda */
+}
+
+#p2{
+	font-style: "arial";
+	font-size: 17px;
+	color: #B22222;
+	background-color: rgb(77,227,240);	
+	padding: 5px 25px;
+	border-style: double;
+	border-width: 20px; 
+	border-color: black; 
+}
+
+#p3{
+	font-family: helvetica, arial;
+	font-size: 18px;
+	color: #000000;
+	background-color: rgb(18,245,52);
+	padding: 5px 25px;
+	border-style: double;
+	border-width:  20px;
+	border-color: black;
+}
