@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>hide demo</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<p>Hello</p>
+<a href="#" id="a1">Click to hide me too <br> <br></a>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<a href="#" id="a2">Click to show me too</a>
+ 
+<script>
+//$( "p" ).hide();
+$( "#a1" ).click(function( event ) {
+  event.preventDefault();
+  $( "p" ).hide();
+});
+
+$( "#a2" ).click(function( event ) {
+  event.preventDefault();
+  $( "p" ).show();
+});
+</script>
+ 
+</body>
+</html>
